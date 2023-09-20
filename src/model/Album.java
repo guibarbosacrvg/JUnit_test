@@ -1,9 +1,9 @@
 package model;
 
 public class Album {
-    String title;
-    int releaseYear;
-    int numMusics;
+    private String title;
+    private int releaseYear;
+    private int numMusics;
 
     public String getTitle() {
         return title;

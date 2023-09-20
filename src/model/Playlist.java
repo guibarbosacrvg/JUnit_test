@@ -3,8 +3,8 @@ package model;
 import java.util.ArrayList;
 
 public class Playlist {
-    public String name;
-    ArrayList<Music> songs;
+    private String name;
+    private ArrayList<Music> songs;
 
     public String getName() {
         return name;
