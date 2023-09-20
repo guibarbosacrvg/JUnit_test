@@ -3,12 +3,12 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class Artist {
-    String artisticName;
-    String realName;
-    Date dateOfBorn;
-    int numMusics;
-    int numAlbums;
-    ArrayList<Album> albums;
+    private String artisticName;
+    private String realName;
+    private Date dateOfBorn;
+    private int numMusics;
+    private int numAlbums;
+    private ArrayList<Album> albums;
 
 
     public boolean addAlbum(Album album){

@@ -1,9 +1,9 @@
 package model;
 
 public class Music {
-    int averageStars;
-    int userReview;
-    int numReviews;
+    private int averageStars;
+    private int userReview;
+    private int numReviews;
 
     public int getNumReviews() {
         return numReviews;

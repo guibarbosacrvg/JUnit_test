@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 public class User {
-    String login;
-    String pswd;
-    ArrayList<Music> favourites;
+    private String login;
+    private String pswd;
+    private ArrayList<Music> favourites;
 
     public boolean verifyLogin(String login, String pswd){
         return Objects.equals(login, this.login) && Objects.equals(pswd, this.pswd);
