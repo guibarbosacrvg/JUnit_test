@@ -1,9 +1,14 @@
 package model;
 
 public class Music {
+    public String name;
     private int averageStars;
     private int userReview;
     private int numReviews;
+
+    public Music(String name){
+        this.name = name;
+    }
 
     public int getNumReviews() {
         return numReviews;
